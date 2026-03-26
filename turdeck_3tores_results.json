@@ -1,0 +1,23 @@
+{
+  "tore1": {
+    "v_bohr_kms": 2187.691,
+    "T_bohr_s": 1.5198954809246083e-16,
+    "f_bohr_Hz": 6579399784725087.0,
+    "rydberg_eV": 13.6,
+    "alpha_inv": 137.036
+  },
+  "tore2": {
+    "T_terre_yr": 1.0,
+    "f_terre_venus": 1.6255006675567425,
+    "venus_comma": 1.0815346387776295,
+    "SAR": 3600,
+    "precession": 25920
+  },
+  "tore3": {
+    "T_galactic_yr": 225000000.0,
+    "T_oscillation_yr": 63000000.0,
+    "ratio_orb_osc": 3.5714285714285716,
+    "crossings_per_orbit": 7.142857142857143,
+    "v_sun_gal_kms": 220
+  }
+}

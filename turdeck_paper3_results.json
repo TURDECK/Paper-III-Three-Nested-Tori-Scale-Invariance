@@ -1,0 +1,984 @@
+{
+  "metadata": {
+    "model": "TURDECK Toroidal Knot (12,13), R=5, r=2",
+    "paper": "Paper III — Three Nested Tori",
+    "author": "Sébastien Monast",
+    "date": "2026-03-26T20:45:57.148693",
+    "method": "All ratios are dimensionless (no units)"
+  },
+  "tore2_orbits": [
+    {
+      "name": "T_Terre/T_Vénus",
+      "observed": 1.6255006675567425,
+      "description": "Ratio de périodes orbitales Terre/Vénus (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "13/8",
+        "value": 1.625,
+        "error_pct": 0.0308
+      },
+      "comma": {
+        "expression": "29*(13/12)^-36",
+        "value": 1.6254071751851695,
+        "error_pct": 0.0058
+      },
+      "best_error_pct": 0.0058,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Saturne/T_Mercure",
+      "observed": 122.30555871319767,
+      "description": "Ratio de périodes orbitales Saturne/Mercure (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "610/5",
+        "value": 122.0,
+        "error_pct": 0.2498
+      },
+      "comma": {
+        "expression": "13*(13/12)^28",
+        "value": 122.25941898762477,
+        "error_pct": 0.0377
+      },
+      "best_error_pct": 0.0377,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Uranus/T_Mars",
+      "observed": 44.67225643041181,
+      "description": "Ratio de périodes orbitales Uranus/Mars (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "89/2",
+        "value": 44.5,
+        "error_pct": 0.3856
+      },
+      "comma": {
+        "expression": "9*(13/12)^20",
+        "value": 44.615383934019285,
+        "error_pct": 0.1273
+      },
+      "best_error_pct": 0.1273,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Vénus/T_Saturne",
+      "observed": 0.0208844135541424,
+      "description": "Ratio de périodes orbitales Vénus/Saturne (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "3/144",
+        "value": 0.020833333333333332,
+        "error_pct": 0.2446
+      },
+      "comma": {
+        "expression": "2*(13/12)^-57",
+        "value": 0.02087324347216441,
+        "error_pct": 0.0535
+      },
+      "best_error_pct": 0.0535,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Jupiter/T_Saturne",
+      "observed": 0.40268625420801885,
+      "description": "Ratio de périodes orbitales Jupiter/Saturne (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "2/5",
+        "value": 0.4,
+        "error_pct": 0.6671
+      },
+      "comma": {
+        "expression": "16*(13/12)^-46",
+        "value": 0.40277554570499047,
+        "error_pct": 0.0222
+      },
+      "best_error_pct": 0.0222,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Terre/T_Saturne",
+      "observed": 0.03394762817378955,
+      "description": "Ratio de périodes orbitales Terre/Saturne (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "3/89",
+        "value": 0.033707865168539325,
+        "error_pct": 0.7063
+      },
+      "comma": {
+        "expression": "3*(13/12)^-56",
+        "value": 0.033919020642267164,
+        "error_pct": 0.0843
+      },
+      "best_error_pct": 0.0843,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Terre/T_Mars",
+      "observed": 0.5316826062273462,
+      "description": "Ratio de périodes orbitales Terre/Mars (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "1/2",
+        "value": 0.5,
+        "error_pct": 5.9589
+      },
+      "comma": {
+        "expression": "5*(13/12)^-28",
+        "value": 0.5316563790195942,
+        "error_pct": 0.0049
+      },
+      "best_error_pct": 0.0049,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Neptune/T_Terre",
+      "observed": 164.7693360711841,
+      "description": "Ratio de périodes orbitales Neptune/Terre (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "144/1",
+        "value": 144.0,
+        "error_pct": 12.6051
+      },
+      "comma": {
+        "expression": "74*(13/12)^10",
+        "value": 164.76037900966952,
+        "error_pct": 0.0054
+      },
+      "best_error_pct": 0.0054,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_Mercure/T_Vénus",
+      "observed": 0.3914997774810859,
+      "description": "Ratio de périodes orbitales Mercure/Vénus (tours/tours)",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "5/13",
+        "value": 0.38461538461538464,
+        "error_pct": 1.7585
+      },
+      "comma": {
+        "expression": "44*(13/12)^-59",
+        "value": 0.39128068236578023,
+        "error_pct": 0.056
+      },
+      "best_error_pct": 0.056,
+      "status": "SOLID"
+    },
+    {
+      "name": "Venus_rot/orb",
+      "observed": 1.081530930129061,
+      "description": "Ratio rotation sidérale / période orbitale de Vénus",
+      "source": "NASA Planetary Fact Sheet",
+      "fibonacci": {
+        "expression": "1/1",
+        "value": 1.0,
+        "error_pct": 7.5385
+      },
+      "comma": {
+        "expression": "8*(13/12)^-25",
+        "value": 1.0815269117648594,
+        "error_pct": 0.0004
+      },
+      "best_error_pct": 0.0004,
+      "status": "SOLID"
+    }
+  ],
+  "tore1_atom": [
+    {
+      "name": "alpha_inv",
+      "observed": 137.036,
+      "description": "Inverse de la constante de structure fine",
+      "source": "CODATA 2018",
+      "fibonacci": {
+        "expression": "144/1",
+        "value": 144.0,
+        "error_pct": 5.0819
+      },
+      "comma": {
+        "expression": "9*(13/12)^34",
+        "value": 136.82142907917432,
+        "error_pct": 0.1566
+      },
+      "best_error_pct": 0.1566,
+      "status": "SOLID"
+    },
+    {
+      "name": "Rydberg",
+      "observed": 13.6,
+      "description": "Énergie d'ionisation de l'hydrogène (ratio 13.6, contient le 13)",
+      "source": "CODATA 2018",
+      "fibonacci": {
+        "expression": "13/1",
+        "value": 13.0,
+        "error_pct": 4.4118
+      },
+      "comma": {
+        "expression": "53*(13/12)^-17",
+        "value": 13.593148555295462,
+        "error_pct": 0.0504
+      },
+      "best_error_pct": 0.0504,
+      "status": "SOLID"
+    }
+  ],
+  "tore3_galaxy": [
+    {
+      "name": "T_orb/T_osc_52Ma",
+      "observed": 4.326923076923077,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=52 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "13/3",
+        "value": 4.333333333333333,
+        "error_pct": 0.1481
+      },
+      "comma": {
+        "expression": "32*(13/12)^-25",
+        "value": 4.3261076470594375,
+        "error_pct": 0.0188
+      },
+      "best_error_pct": 0.0188,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_55Ma",
+      "observed": 4.090909090909091,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=55 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "8/2",
+        "value": 4.0,
+        "error_pct": 2.2222
+      },
+      "comma": {
+        "expression": "73*(13/12)^-36",
+        "value": 4.0915421996040475,
+        "error_pct": 0.0155
+      },
+      "best_error_pct": 0.0155,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_60Ma",
+      "observed": 3.75,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=60 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "8/2",
+        "value": 4.0,
+        "error_pct": 6.6667
+      },
+      "comma": {
+        "expression": "57*(13/12)^-34",
+        "value": 3.749412672068662,
+        "error_pct": 0.0157
+      },
+      "best_error_pct": 0.0157,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_63Ma",
+      "observed": 3.5714285714285716,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=63 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "8/2",
+        "value": 4.0,
+        "error_pct": 12.0
+      },
+      "comma": {
+        "expression": "31*(13/12)^-27",
+        "value": 3.5709586790816075,
+        "error_pct": 0.0132
+      },
+      "best_error_pct": 0.0132,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_66Ma",
+      "observed": 3.409090909090909,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=66 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "3/1",
+        "value": 3.0,
+        "error_pct": 12.0
+      },
+      "comma": {
+        "expression": "4*(13/12)^-2",
+        "value": 3.4082840236686396,
+        "error_pct": 0.0237
+      },
+      "best_error_pct": 0.0237,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_70Ma",
+      "observed": 3.2142857142857144,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=70 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "3/1",
+        "value": 3.0,
+        "error_pct": 6.6667
+      },
+      "comma": {
+        "expression": "79*(13/12)^-40",
+        "value": 3.2147176962877215,
+        "error_pct": 0.0134
+      },
+      "best_error_pct": 0.0134,
+      "status": "SOLID"
+    },
+    {
+      "name": "T_orb/T_osc_74Ma",
+      "observed": 3.0405405405405403,
+      "description": "Ratio orbite galactique / oscillation verticale (T_osc=74 Ma)",
+      "source": "Bash 1986, Matese & Whitmire 1986",
+      "fibonacci": {
+        "expression": "3/1",
+        "value": 3.0,
+        "error_pct": 1.3333
+      },
+      "comma": {
+        "expression": "95*(13/12)^-43",
+        "value": 3.0405562073863237,
+        "error_pct": 0.0005
+      },
+      "best_error_pct": 0.0005,
+      "status": "SOLID"
+    },
+    {
+      "name": "crossings_per_orbit",
+      "observed": 2.7,
+      "description": "Traversées du plan galactique par orbite",
+      "source": "Nature / Wikipedia",
+      "fibonacci": {
+        "expression": "8/3",
+        "value": 2.6666666666666665,
+        "error_pct": 1.2346
+      },
+      "comma": {
+        "expression": "99*(13/12)^-45",
+        "value": 2.699854829803764,
+        "error_pct": 0.0054
+      },
+      "best_error_pct": 0.0054,
+      "status": "SOLID"
+    }
+  ],
+  "inter_tores_velocities": [
+    {
+      "name": "v_Bohr/v_Mercure",
+      "observed": 46.192799831081075,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Mercure",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "233/5",
+        "value": 46.6,
+        "error_pct": 0.8815
+      },
+      "comma": {
+        "expression": "95*(13/12)^-9",
+        "value": 46.22369394335013,
+        "error_pct": 0.0669
+      },
+      "best_error_pct": 0.0669,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Vénus",
+      "observed": 62.469760137064526,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Vénus",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "55/1",
+        "value": 55.0,
+        "error_pct": 11.9574
+      },
+      "comma": {
+        "expression": "2*(13/12)^43",
+        "value": 62.48856690708076,
+        "error_pct": 0.0301
+      },
+      "best_error_pct": 0.0301,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Terre",
+      "observed": 73.4617528542646,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Terre",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "144/2",
+        "value": 72.0,
+        "error_pct": 1.9898
+      },
+      "comma": {
+        "expression": "33*(13/12)^10",
+        "value": 73.47422307187965,
+        "error_pct": 0.017
+      },
+      "best_error_pct": 0.017,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Mars",
+      "observed": 90.88869962609056,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Mars",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "89/1",
+        "value": 89.0,
+        "error_pct": 2.078
+      },
+      "comma": {
+        "expression": "66*(13/12)^4",
+        "value": 90.90596064814812,
+        "error_pct": 0.019
+      },
+      "best_error_pct": 0.019,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Jupiter",
+      "observed": 167.38263198163733,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Jupiter",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "377/2",
+        "value": 188.5,
+        "error_pct": 12.6162
+      },
+      "comma": {
+        "expression": "14*(13/12)^31",
+        "value": 167.399181322176,
+        "error_pct": 0.0099
+      },
+      "best_error_pct": 0.0099,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Saturne",
+      "observed": 226.00113636363636,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Saturne",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "233/1",
+        "value": 233.0,
+        "error_pct": 3.0968
+      },
+      "comma": {
+        "expression": "3*(13/12)^54",
+        "value": 226.08668847290934,
+        "error_pct": 0.0379
+      },
+      "best_error_pct": 0.0379,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Uranus",
+      "observed": 321.7192647058823,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Uranus",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "987/3",
+        "value": 329.0,
+        "error_pct": 2.2631
+      },
+      "comma": {
+        "expression": "51*(13/12)^23",
+        "value": 321.4390383008653,
+        "error_pct": 0.0871
+      },
+      "best_error_pct": 0.0871,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Neptune",
+      "observed": 402.88968692449356,
+      "description": "Ratio vitesse électron (Bohr) / vitesse orbitale Neptune",
+      "source": "CODATA + NASA",
+      "fibonacci": {
+        "expression": "377/1",
+        "value": 377.0,
+        "error_pct": 6.426
+      },
+      "comma": {
+        "expression": "59*(13/12)^24",
+        "value": 402.84925224961387,
+        "error_pct": 0.01
+      },
+      "best_error_pct": 0.01,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Mercure",
+      "observed": 4.64527027027027,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Mercure",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "13/3",
+        "value": 4.333333333333333,
+        "error_pct": 6.7152
+      },
+      "comma": {
+        "expression": "27*(13/12)^-22",
+        "value": 4.640848877241007,
+        "error_pct": 0.0952
+      },
+      "best_error_pct": 0.0952,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Vénus",
+      "observed": 6.28212450028555,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Vénus",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "13/2",
+        "value": 6.5,
+        "error_pct": 3.4682
+      },
+      "comma": {
+        "expression": "64*(13/12)^-29",
+        "value": 6.281724601339206,
+        "error_pct": 0.0064
+      },
+      "best_error_pct": 0.0064,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Terre",
+      "observed": 7.387508394895903,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Terre",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "21/3",
+        "value": 7.0,
+        "error_pct": 5.2455
+      },
+      "comma": {
+        "expression": "8*(13/12)^-1",
+        "value": 7.384615384615385,
+        "error_pct": 0.0392
+      },
+      "best_error_pct": 0.0392,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Mars",
+      "observed": 9.140008309098462,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Mars",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "8/1",
+        "value": 8.0,
+        "error_pct": 12.4727
+      },
+      "comma": {
+        "expression": "16*(13/12)^-7",
+        "value": 9.136613188802539,
+        "error_pct": 0.0371
+      },
+      "best_error_pct": 0.0371,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Jupiter",
+      "observed": 16.832440703902066,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Jupiter",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "34/2",
+        "value": 17.0,
+        "error_pct": 0.9955
+      },
+      "comma": {
+        "expression": "77*(13/12)^-19",
+        "value": 16.827155429397802,
+        "error_pct": 0.0314
+      },
+      "best_error_pct": 0.0314,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Saturne",
+      "observed": 22.727272727272727,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Saturne",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "21/1",
+        "value": 21.0,
+        "error_pct": 7.6
+      },
+      "comma": {
+        "expression": "96*(13/12)^-18",
+        "value": 22.727586553991834,
+        "error_pct": 0.0014
+      },
+      "best_error_pct": 0.0014,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Uranus",
+      "observed": 32.35294117647059,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Uranus",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "34/1",
+        "value": 34.0,
+        "error_pct": 5.0909
+      },
+      "comma": {
+        "expression": "78*(13/12)^-11",
+        "value": 32.33787171421418,
+        "error_pct": 0.0466
+      },
+      "best_error_pct": 0.0466,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Gal/v_Neptune",
+      "observed": 40.515653775322285,
+      "description": "Ratio vitesse Soleil (galactique) / vitesse orbitale Neptune",
+      "source": "IAU + NASA",
+      "fibonacci": {
+        "expression": "89/2",
+        "value": 44.5,
+        "error_pct": 9.8341
+      },
+      "comma": {
+        "expression": "71*(13/12)^-7",
+        "value": 40.543721025311264,
+        "error_pct": 0.0693
+      },
+      "best_error_pct": 0.0693,
+      "status": "SOLID"
+    },
+    {
+      "name": "v_Bohr/v_Gal",
+      "observed": 9.944049999999999,
+      "description": "Ratio vitesse électron / vitesse Soleil galactique",
+      "source": "CODATA + IAU",
+      "fibonacci": {
+        "expression": "21/2",
+        "value": 10.5,
+        "error_pct": 5.5908
+      },
+      "comma": {
+        "expression": "42*(13/12)^-18",
+        "value": 9.943319117371427,
+        "error_pct": 0.0073
+      },
+      "best_error_pct": 0.0073,
+      "status": "SOLID"
+    }
+  ],
+  "angular_momenta": [
+    {
+      "name": "L_Jupiter/L_Terre",
+      "observed": 725.70248952317,
+      "description": "Ratio moment angulaire Jupiter/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "610/1",
+        "value": 610.0,
+        "error_pct": 15.9435
+      },
+      "comma": {
+        "expression": "32*(13/12)^39",
+        "value": 725.8921877442538,
+        "error_pct": 0.0261
+      },
+      "best_error_pct": 0.0261,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Saturne/L_Terre",
+      "observed": 294.9965112693082,
+      "description": "Ratio moment angulaire Saturne/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "610/2",
+        "value": 305.0,
+        "error_pct": 3.3911
+      },
+      "comma": {
+        "expression": "13*(13/12)^39",
+        "value": 294.8937012711031,
+        "error_pct": 0.0349
+      },
+      "best_error_pct": 0.0349,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Neptune/L_Terre",
+      "observed": 94.03135376091333,
+      "description": "Ratio moment angulaire Neptune/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "89/1",
+        "value": 89.0,
+        "error_pct": 5.3507
+      },
+      "comma": {
+        "expression": "10*(13/12)^28",
+        "value": 94.04570691355751,
+        "error_pct": 0.0153
+      },
+      "best_error_pct": 0.0153,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Jupiter/L_Saturne",
+      "observed": 2.460037531971562,
+      "description": "Ratio moment angulaire Jupiter/Saturne (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "5/2",
+        "value": 2.5,
+        "error_pct": 1.6245
+      },
+      "comma": {
+        "expression": "71*(13/12)^-42",
+        "value": 2.461783666155769,
+        "error_pct": 0.071
+      },
+      "best_error_pct": 0.071,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Neptune/L_Uranus",
+      "observed": 1.4758733411263625,
+      "description": "Ratio moment angulaire Neptune/Uranus (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "3/2",
+        "value": 1.5,
+        "error_pct": 1.6347
+      },
+      "comma": {
+        "expression": "50*(13/12)^-44",
+        "value": 1.477193299135056,
+        "error_pct": 0.0894
+      },
+      "best_error_pct": 0.0894,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Vénus/L_Terre",
+      "observed": 0.6929267931497648,
+      "description": "Ratio moment angulaire Vénus/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "2/3",
+        "value": 0.6666666666666666,
+        "error_pct": 3.7897
+      },
+      "comma": {
+        "expression": "35*(13/12)^-49",
+        "value": 0.6929866011674394,
+        "error_pct": 0.0086
+      },
+      "best_error_pct": 0.0086,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Mars/L_Terre",
+      "observed": 0.13180143586299528,
+      "description": "Ratio moment angulaire Mars/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "1/8",
+        "value": 0.125,
+        "error_pct": 5.1604
+      },
+      "comma": {
+        "expression": "2*(13/12)^-34",
+        "value": 0.13155833937083025,
+        "error_pct": 0.1844
+      },
+      "best_error_pct": 0.1844,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Mercure/L_Terre",
+      "observed": 0.03403479167226327,
+      "description": "Ratio moment angulaire Mercure/Terre (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "8/233",
+        "value": 0.034334763948497854,
+        "error_pct": 0.8814
+      },
+      "comma": {
+        "expression": "3*(13/12)^-56",
+        "value": 0.033919020642267164,
+        "error_pct": 0.3402
+      },
+      "best_error_pct": 0.3402,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Jupiter/L_Mars",
+      "observed": 5506.0287072860265,
+      "description": "Ratio moment angulaire Jupiter/Mars (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "987/1",
+        "value": 987.0,
+        "error_pct": 82.0742
+      },
+      "comma": {
+        "expression": "49*(13/12)^59",
+        "value": 5510.111020468192,
+        "error_pct": 0.0741
+      },
+      "best_error_pct": 0.0741,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Saturne/L_Jupiter",
+      "observed": 0.4064978631438051,
+      "description": "Ratio moment angulaire Saturne/Jupiter (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "2/5",
+        "value": 0.4,
+        "error_pct": 1.5985
+      },
+      "comma": {
+        "expression": "10*(13/12)^-40",
+        "value": 0.40692629066933184,
+        "error_pct": 0.1054
+      },
+      "best_error_pct": 0.1054,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Neptune/L_Jupiter",
+      "observed": 0.12957286921076647,
+      "description": "Ratio moment angulaire Neptune/Jupiter (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "1/8",
+        "value": 0.125,
+        "error_pct": 3.5292
+      },
+      "comma": {
+        "expression": "9*(13/12)^-53",
+        "value": 0.12937515338725858,
+        "error_pct": 0.1526
+      },
+      "best_error_pct": 0.1526,
+      "status": "SOLID"
+    },
+    {
+      "name": "L_Uranus/L_Saturne",
+      "observed": 0.21597661025603998,
+      "description": "Ratio moment angulaire Uranus/Saturne (m×v×a, sans unité)",
+      "source": "NASA Planetary Fact Sheet (calcul dérivé)",
+      "fibonacci": {
+        "expression": "3/13",
+        "value": 0.23076923076923078,
+        "error_pct": 6.8492
+      },
+      "comma": {
+        "expression": "15*(13/12)^-53",
+        "value": 0.21562525564543097,
+        "error_pct": 0.1627
+      },
+      "best_error_pct": 0.1627,
+      "status": "SOLID"
+    }
+  ],
+  "special_ratios": [
+    {
+      "name": "precession_SAR",
+      "observed": 7.2,
+      "description": "Ratio précession / SAR = 25920/3600 = 36/5 = 6²/5",
+      "source": "IAU",
+      "fibonacci": {
+        "expression": "21/3",
+        "value": 7.0,
+        "error_pct": 2.7778
+      },
+      "comma": {
+        "expression": "2*(13/12)^16",
+        "value": 7.198196462587476,
+        "error_pct": 0.025
+      },
+      "best_error_pct": 0.025,
+      "status": "SOLID"
+    },
+    {
+      "name": "phase_12_sectors",
+      "observed": 0.937962962962963,
+      "description": "Phase du point vernal dans le secteur actuel (12 secteurs)",
+      "source": "IAU",
+      "fibonacci": {
+        "expression": "1/1",
+        "value": 1.0,
+        "error_pct": 6.614
+      },
+      "comma": {
+        "expression": "83*(13/12)^-56",
+        "value": 0.9384262377693916,
+        "error_pct": 0.0494
+      },
+      "best_error_pct": 0.0494,
+      "status": "SOLID"
+    },
+    {
+      "name": "phase_13_sectors",
+      "observed": 1.0161265432098765,
+      "description": "Phase du point vernal (13 secteurs = avec correction torique)",
+      "source": "IAU",
+      "fibonacci": {
+        "expression": "1/1",
+        "value": 1.0,
+        "error_pct": 1.5871
+      },
+      "comma": {
+        "expression": "83*(13/12)^-55",
+        "value": 1.0166284242501742,
+        "error_pct": 0.0494
+      },
+      "best_error_pct": 0.0494,
+      "status": "SOLID"
+    },
+    {
+      "name": "432_Schumann",
+      "observed": 55.172413793103445,
+      "description": "Ratio 432 Hz / fréquence de Schumann (7.83 Hz)",
+      "source": "Mesures",
+      "fibonacci": {
+        "expression": "55/1",
+        "value": 55.0,
+        "error_pct": 0.3125
+      },
+      "comma": {
+        "expression": "76*(13/12)^-4",
+        "value": 55.17789993347573,
+        "error_pct": 0.0099
+      },
+      "best_error_pct": 0.0099,
+      "status": "SOLID"
+    }
+  ],
+  "summary": {
+    "total_claims": 53,
+    "solid_under_1pct": 53,
+    "approximation_1_to_2.5pct": 0,
+    "problem_over_2.5pct": 0,
+    "worst_error": 0.3402,
+    "median_error": 0.0314,
+    "mean_error": 0.0513
+  }
+}

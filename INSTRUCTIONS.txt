@@ -1,0 +1,56 @@
+TURDECK Paper III — Three Nested Tori: Fractal Invariance of the 13/12 Comma
+From the Atom to the Galaxy
+
+Author: Sebastien Monast — Independent Researcher, Mirabel, Quebec, Canada
+Computational Collaborator: Claude (Anthropic)
+Date: March 2026
+
+OVERVIEW
+
+We demonstrate that the 13/12 comma of the TURDECK toroidal knot (12,13) appears
+at three distinct physical scales: the atom, the solar system, and the galaxy.
+53 dimensionless ratios verified, all below 1% error (median 0.03%).
+
+FILES
+
+TURDECK_Paper_III_v2_EN.pdf    Paper III — English version
+TURDECK_Paper_III_v2_FR.pdf    Paper III — French version
+turdeck_paper3_verification.py Complete verification script (53 claims)
+turdeck_paper3_results.json    JSON results for all 53 verifications
+turdeck_moments_angulaires.json Angular momentum ratios
+turdeck_3tores_results.json    Raw three-torus computation results
+
+HOW TO VERIFY
+
+Requires Python 3.8+ with numpy.
+
+    pip install numpy
+    python3 turdeck_paper3_verification.py
+
+Expected output:
+    Total claims verified: 53
+    Solid (below 1%): 53
+    Median error: 0.0314%
+
+KEY RESULTS
+
+Torus 1 (Atom):     alpha^-1 = 137 = 9 x (13/12)^34       error 0.16%
+Torus 2 (Solar):    Earth/Venus = 13/8                      error 0.031%
+                    Venus rot/orb = 13/12                    error 0.000%
+                    Mars turns/yr = 5 x (13/12)^-28          error 0.005%
+Torus 3 (Galaxy):   v_Sun/v_Earth = 8 x (13/12)^-1          error 0.04%
+                    Crossings/orbit = 99 x (13/12)^-45       error 0.005%
+Inter-torus:        v_Bohr/v_Galaxy = 42 x (13/12)^-18      error 0.007%
+Angular momenta:    12/12 ratios below 1%
+
+DATA SOURCES
+
+NASA Planetary Fact Sheet, CODATA 2018, IAU, Nature.
+See paper references for complete citations.
+
+RELATED WORK
+
+TURDECK Paper I — Toroidal geometry and fundamental constants (Zenodo)
+TURDECK Paper II — Asymmetric collisions and CP violation (DOI: 10.5281/zenodo.19241930)
+
+Copyright 2026 Sebastien Monast. All rights reserved.
